@@ -56,3 +56,15 @@ includeFile("mobile/vehicle/speederbike_base.lua")
 includeFile("mobile/vehicle/speederbike_flash.lua")
 includeFile("mobile/vehicle/speederbike_swoop.lua")
 includeFile("mobile/vehicle/vehicle_base.lua")
+includeFile("mobile/vehicle/a1_deluxe_floater.lua");
+includeFile("mobile/vehicle/air2_swoop_speeder.lua");
+includeFile("mobile/vehicle/barc_speeder.lua");
+includeFile("mobile/vehicle/barc_speeder_imperial.lua");
+includeFile("mobile/vehicle/barc_speeder_rebel.lua");
+includeFile("mobile/vehicle/flare_s_swoop.lua");
+includeFile("mobile/vehicle/podracer_balta.lua");
+includeFile("mobile/vehicle/podracer_anakin.lua");
+includeFile("mobile/vehicle/speeder_stap.lua");
+includeFile("mobile/vehicle/landspeeder_ab1.lua");
+includeFile("mobile/vehicle/landspeeder_v35.lua");
+includeFile("mobile/vehicle/sith_speeder.lua");

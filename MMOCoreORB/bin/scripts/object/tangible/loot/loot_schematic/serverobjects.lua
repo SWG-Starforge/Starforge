@@ -44,6 +44,24 @@
 
 --Children folder includes
 
+--custom
+includeFile("tangible/loot/loot_schematic/speeder_barc_rebel_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/speeder_barc_imperial_loot_schematic.lua")
+--[[
+includeFile("tangible/loot/loot_schematic/clothing_bandolier_tusken_raider_bag_s01_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_bandolier_tusken_raider_bag_s02_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_bandolier_tusken_raider_bag_s03_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_boots_tusken_raider_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_gloves_tusken_raider_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_bracer_tusken_raider_l_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_bracer_tusken_raider_r_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_robe_tusken_raider_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_robe_tusken_raider_s02_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_helmet_tusken_raider_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/clothing_belt_tusken_raider_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/droid_hk47_loot_schematic.lua")
+includeFile("tangible/loot/loot_schematic/be_tusken_massif_loot_schematic.lua")]]--
+
 -- Server Objects
 includeFile("tangible/loot/loot_schematic/agitator_motor_schematic.lua")
 includeFile("tangible/loot/loot_schematic/assorted_fruit_schematic.lua")

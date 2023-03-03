@@ -62,6 +62,16 @@ object_tangible_wearables_backpack_singing_mountain_clan_backpack = object_tangi
 				"object/creature/player/wookiee_female.iff",
 				"object/creature/player/zabrak_male.iff",
 				"object/creature/player/zabrak_female.iff" },
+
+				numberExperimentalProperties = {1, 1, 1},
+				experimentalProperties = {"XX", "XX", "XX"},
+				experimentalWeights = {1, 1, 1},
+				experimentalGroupTitles = {"null", "null", "null"},
+				experimentalSubGroupTitles = {"null", "null", "hitpoints"},
+				experimentalMin = {0, 0, 1000},
+				experimentalMax = {0, 0, 1000},
+				experimentalPrecision = {0, 0, 0},
+				experimentalCombineType = {0, 0, 4},
 }
 
 ObjectTemplates:addTemplate(object_tangible_wearables_backpack_singing_mountain_clan_backpack, "object/tangible/wearables/backpack/singing_mountain_clan_backpack.iff")

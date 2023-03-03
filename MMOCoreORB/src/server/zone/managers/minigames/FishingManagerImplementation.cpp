@@ -510,7 +510,7 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 	TransactionLog trx(TrxCode::FISHING, player);
 
 	if (fish > 80) { // Non-fish Item Caught
-		int chance = System::random(200) + player->getSkillMod("luck");
+		int chance = System::random(200) + player->getSkillMod("force_luck");
 		uint64 lootID = 0;
 
 		if (chance > 190) { // Rare Loot
@@ -580,7 +580,7 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 				ManagedReference<PlayerManager*> playerManager = zoneServer->getPlayerManager();
 
 				Locker playerLocker(player);
-				playerManager->awardExperience(player, "camp", xp, true);
+				playerManager->awardExperience(player, "fishing", xp, true);
 
 				int color = 1;
 
@@ -796,7 +796,7 @@ int FishingManagerImplementation::getFish(CreatureObject* player, SceneObject* m
 					   + (vegStat * -0.75)		// Vegetation Decrease chance to catch a fish
 					   + (density(player) * 0.75)			// ACCOUNT FOR FISH DENSITY - is 0 if density method fails
 					   + ((3 - bait->getFreshness()) * 3.0) // ACCOUNT FOR BAIT STATUS - freshness is 0 at init
-					   + player->getSkillMod("luck") // ACCOUNT FOR LUCK
+					   + player->getSkillMod("force_luck") // ACCOUNT FOR LUCK
 					   + (System::random(20))) // RANDOM BIAS
 				 % 7;						   // MUX NUMBER TO FISH 0-6
 	}
